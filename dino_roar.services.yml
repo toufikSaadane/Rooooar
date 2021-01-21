@@ -1,0 +1,5 @@
+services:
+  dino_roar.dino_says.roar_generator:
+    class: Drupal\dino_roar\Jurassic\RoarGenerator
+    arguments:
+      [ '@logger.factory', '@keyvalue' ]

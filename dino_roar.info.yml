@@ -1,0 +1,5 @@
+name: Dino Roar
+type: module
+core: 8.x
+description: This a module based on D8 under the hood
+package: Drupal Under the hood
